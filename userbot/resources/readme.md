@@ -1,2 +1,2 @@
-# Extra Resources for Man-Userbot
-Repository [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
+# Extra Resources for DivaArvian-Userbot
+Repository [DivaArvian-Userbot](https://github.com/PXZUpLUK/DivaArvian-Userbot)
