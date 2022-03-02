@@ -1,4 +1,4 @@
-FROM python:slim-buster
+FROM mrismanaziz/man-userbot:slim-buster
 
 RUN git clone -b dev https://github.com/PXZUpLuk/DivaArvian-Userbot /home/manuserbot/ \
     && chmod 777 /home/manuserbot \
