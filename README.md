@@ -7,7 +7,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/PXZUpLUK/DivaArvian-Userbot?&logo=github)](https://github.com/PXZUpLUK/DivaArvian-Userbot/fork)
 [![GitHub Stars](https://img.shields.io/github/stars/PXZUpLUK/DivaArvian-Userbot?&logo=github)](https://github.com/PXZUpLUK/DivaArvian-Userbot/stargazers)
 
-Man-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+DivaArvian-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -23,9 +23,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Tutorial
 
--  [Panduan Cara Memasang Man-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
+-  [Panduan Cara Memasang DivaArvian-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
 -  [Cara Setting Last.FM modules](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)
--  [List Variabel Man-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
+-  [List Variabel DivaArvian-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
 
 <details>
 <summary><b>🔗 String Session</b></summary>
@@ -35,7 +35,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <h4> Generate Session via Repl: </h4>    
 <p><a href="https://repl.it/@mrismanaziz/stringenSession?lite=1&outputonly=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 <h4> Generate Session via Telegram StringGen Bot: </h4>    
-<p><a href="https://t.me/StringManRobot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+<p><a href="https://t.me/stringxbot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
     
 </details>
 
@@ -54,13 +54,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ### Tutorial Deploy di VPS
 
--  `git clone https://github.com/mrismanaziz/Man-Userbot`
--  `cd Man-Userbot`
+-  `git clone https://github.com/PXZUpLUK/DivaArvian-Userbot`
+-  `cd DivaArvian-Userbot`
 -  `pip3 install -r requirements.txt`
 -  `mv sample_config.env config.env`
--  edit config.env Anda dan isi VARS menggunakan `nano config.env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori Man-Userbot
--  Buka SCRREN di VPS Anda `screen -S Man-Userbot`
--  Kemudian gunakan perintah ini untuk menyebarkan Man-Userbot `python3 -m userbot`
+-  edit config.env Anda dan isi VARS menggunakan `nano config.env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori DivaArvian-Userbot
+-  Buka SCRREN di VPS Anda `screen -S DivaArvian-Userbot`
+-  Kemudian gunakan perintah ini untuk menyebarkan DivaArvian-Userbot `python3 -m userbot`
 
 </details>
 
