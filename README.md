@@ -1,5 +1,5 @@
 # Man-Userbot Telegram
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/PXZUpLUK/DivaArvian--Userbot)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/PXZUpLUK/DivaArvian-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://GitHub.com/PXZUpLUK/DivaArvian-Userbot/graphs/commit-activity)
 [![CodeFactor](https://www.codefactor.io/repository/github/PXZUpLUK/DivaArvian-Userbot/badge)](https://www.codefactor.io/repository/github/PXZUpLUK/DivaArvian-Userbot)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/PXZUpLUK/DivaArvian-Userbot/dashboard)
