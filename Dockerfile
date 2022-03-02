@@ -1,9 +1,7 @@
-FROM mrismanaziz/man-userbot:slim-buster
+FROM python:3.9
 
-RUN git clone -b dev https://github.com/PXZUpLuk/DivaArvian-Userbot /home/manuserbot/ \
-    && chmod 777 /home/manuserbot \
-    && mkdir /home/manuserbot/bin/
+RUN git clone -b dev https://github.com/PXZUpLuk/DivaArvian-Userbot
 
-WORKDIR /home/manuserbot/
+WORKDIR /app
 
 CMD [ "bash", "start" ]
