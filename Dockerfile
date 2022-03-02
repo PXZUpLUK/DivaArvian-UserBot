@@ -1,7 +1,11 @@
-FROM python:3.9
+# syntax=docker/dockerfile:1
+
+FROM python:3.8-slim-buster
+
+WORKDIR /app
 
 RUN git clone -b dev https://github.com/PXZUpLuk/DivaArvian-Userbot
 
-WORKDIR /app
+COPY . .
 
 CMD [ "bash", "start" ]
