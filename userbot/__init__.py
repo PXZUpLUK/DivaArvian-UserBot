@@ -12,6 +12,7 @@
 import logging
 import os
 import re
+import signal
 import sys
 import time
 from base64 import b64decode
@@ -70,13 +71,14 @@ logging.basicConfig(
 )
 logging.getLogger("asyncio").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
+logging.getLogger("telethon.client.updates").setLevel(logging.ERROR)
 logging.getLogger("telethon.network.mtprotosender").setLevel(logging.ERROR)
 logging.getLogger("telethon.network.connection.connection").setLevel(logging.ERROR)
 LOGS = getLogger(__name__)
 
-if version_info[0] < 3 or version_info[1] < 9:
+if version_info[0] < 3 or version_info[1] < 8:
     LOGS.info(
-        "Anda HARUS memiliki python setidaknya versi 3.9."
+        "Anda HARUS memiliki python setidaknya versi 3.8."
         "Beberapa fitur tergantung versi python ini. Bot berhenti."
     )
     sys.exit(1)
@@ -374,6 +376,28 @@ if STRING_5:
     call_py5 = PyTgCalls(MAN5)
 else:
     MAN5 = None
+
+
+def shutdown_bot(*_):
+    LOGS.info("Received SIGTERM.")
+    if bot:
+        bot.disconnect()
+        sys.exit(143)
+    if MAN2:
+        MAN2.disconnect()
+        sys.exit(143)
+    if MAN3:
+        MAN3.disconnect()
+        sys.exit(143)
+    if MAN4:
+        MAN4.disconnect()
+        sys.exit(143)
+    if MAN5:
+        MAN5.disconnect()
+        sys.exit(143)
+
+
+signal.signal(signal.SIGTERM, shutdown_bot)
 
 
 async def check_botlog_chatid() -> None:
