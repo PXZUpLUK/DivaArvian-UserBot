@@ -1,4 +1,4 @@
-FROM mrismanaziz/man-userbot:buster
+FROM pxzupluk/divaarvian-userbot:buster
 
 RUN git clone -b dev https://github.com/mrismanaziz/Man-Userbot /home/manuserbot/ \
     && chmod 777 /home/manuserbot \
