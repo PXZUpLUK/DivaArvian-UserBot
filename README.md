@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 Follow Channel [@LieShooter_TG](https://t.me/LieShooter_TG) untuk info Update bot dan Gabung Group [@LieShooter_GC](https://t.me/LieShooter_GC) untuk untuk diskusi, pelaporan bug, dan bantuan tentang DivaArvian-Userbot.
 
-#### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
+#### Special Thanks To [Everyone](https://github.com/PXZUpLUK/DivaArvian-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
 -  [RaphielGang](https://github.com/RaphielGang) : Paperplane
 -  [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
