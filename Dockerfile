@@ -1,4 +1,4 @@
-FROM pxzupluk/divaarvian-userbot
+FROM pxzupluk/divaarvian-userbot:tagname
 
 RUN git clone -b dev https://github.com/PXZUpLuk/DivaArvian-Userbot /home/manuserbot/ \
     && chmod 777 /home/manuserbot \
