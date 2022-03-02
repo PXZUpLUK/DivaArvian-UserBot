@@ -1,4 +1,4 @@
-# Man-Userbot Telegram
+# DivaArvian-Userbot Telegram
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/PXZUpLUK/DivaArvian-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://GitHub.com/PXZUpLUK/DivaArvian-Userbot/graphs/commit-activity)
 [![CodeFactor](https://www.codefactor.io/repository/github/PXZUpLUK/DivaArvian-Userbot/badge)](https://www.codefactor.io/repository/github/PXZUpLUK/DivaArvian-Userbot)
